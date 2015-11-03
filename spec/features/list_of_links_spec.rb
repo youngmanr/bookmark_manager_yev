@@ -1,7 +1,7 @@
 feature 'list of links' do
-  scenario 'user would like to see a list of links on the homepage' do
+  scenario 'I can see existing links on the links page' do
     Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
-    visit('/links')
+    visit '/links'
     expect(page.status_code).to eq 200
     within 'ul#links' do
       expect(page).to have_content('Makers Academy')
