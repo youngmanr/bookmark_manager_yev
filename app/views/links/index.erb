@@ -1,10 +1,10 @@
 <h1>Links</h2>
-	
+
 <ul id='links'>
 	<% @links.each do |link| %>
 		<li>
 			Title: <%= link.title %>
-			URL:   <%= link.url %> 
+			URL:   <%= link.url %>
 			Tags:  <%= link.tags.map(&:name).join(', ') %>
 		</li>
 	<% end %>
