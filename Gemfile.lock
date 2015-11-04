@@ -106,7 +106,6 @@ DEPENDENCIES
   capybara
   data_mapper
   database_cleaner
-  dm-migrations
   dm-postgres-adapter
   rspec
   sinatra
