@@ -1,4 +1,3 @@
-require 'rubygems'
-require_relative './app/app.rb'
+require_relative './app/app'
 
 run BookmarkManager
