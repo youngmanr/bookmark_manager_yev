@@ -1,5 +1,7 @@
-first user story
+As a User of the system,
+So that I can see what is available 
+I want to see a list of available links
 
-As a time-pressed user
-So that I can quickly go to web sites I regularly visit
-I would like to see a list of links on the homepage
+As a user of the system, 
+So that I can find web sites I recently bookmarked 
+I want to be able to add links in descending chronological order
